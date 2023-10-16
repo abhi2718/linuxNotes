@@ -1,0 +1,55 @@
+Commonds 
+
+1.  pwd -> present working directory
+2.  ls -l -> long list 
+3.  mkdir
+4.  touch
+5.  sudo -i -> user to root user
+6.  cat index.html -> show contents of index.html
+
+7.  cp (copy) -> cp <source path>  <destination path>
+    a) copy a file -> cp <source path>  <destination path>
+    b) copy a folder -> cp -r <source path>  <destination path>
+
+8.  mv (move) -> mv <source path>  <destination path>
+
+9.  rm (remove) rm <source path>  <destination path>
+    a) copy a file -> rm <source path>  <destination path>
+    b) copy a folder -> rm -r <source path>  <destination path>
+
+    to see all options of any commond
+    cp --help 
+10.  creating dir structure 
+     mkdir -p a/b/c/d
+11.  crating link ln -s <destination> <source>  
+
+---------------------------------------------------------------------------
+    VIM Editor
+    3 Modes of VIM
+    1. Commond Mode (CM)
+    2. Insert Mode (IM)
+    3. Extended Mode (EM)
+
+    CM -> IM -> hit i 
+    IM -> CM -> hit ESC
+    CM -> EM -> : 
+
+    Extended Mode Commonds 
+    :q -> to quit
+    :w -> to save 
+    :wq -> save and quit
+    :q! -> force quit
+    :se nu -> show line number
+
+    Insert Mode Commonds 
+    jumping from 1st line to laste -> hit G(captial)
+    jumping from laste to first line -> hit 2 times g (small g)
+
+    copying only a line -> hit 2 times y 
+    copying x lines -> type xy and hit enter
+    paste -> hit p
+
+    deleting a line -> hit 2 times d
+
+    cutting x line -> hit xd 
+    paste -> hit p
